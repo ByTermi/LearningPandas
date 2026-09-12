@@ -1,1 +1,25 @@
 env_pandas/
+
+# --- migracion a GitHub: seguridad y ruido ---
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+id_rsa*
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+/practica_18_envio_jnb/survey_results_public_2021.csv
+/stack-overflow-developer-survey-2021/survey_results_public.csv
+/survey_results_public_2021.csv
+entorno_pandas/
+.ipynb_checkpoints/
